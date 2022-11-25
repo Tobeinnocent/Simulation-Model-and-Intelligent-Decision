@@ -1,0 +1,7 @@
+Logged at 2022-11-19 17:06:15.108538
+This training session ran episodes: [100, 200, 300, 400, 500]
+Session 0 | Episodes: 100 | Success Rate: 86.00%
+Session 1 | Episodes: 200 | Success Rate: 70.00%
+Session 2 | Episodes: 300 | Success Rate: 61.67%
+Session 3 | Episodes: 400 | Success Rate: 60.50%
+Session 4 | Episodes: 500 | Success Rate: 46.00%
