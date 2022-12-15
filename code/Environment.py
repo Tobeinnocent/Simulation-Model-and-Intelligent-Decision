@@ -85,8 +85,8 @@ class environment():
         if self.bike_stock[self.current_hour] > 80:
             self.reward = -(self.bike_stock[self.current_hour]-80)
             
-        if self.bike_stock[self.current_hour] < 80:
-            self.reward = -(30-self.bike_stock[self.current_hour])
+        if self.bike_stock[self.current_hour] < 20:
+            self.reward = -(20-self.bike_stock[self.current_hour])
 
         if (self.bike_stock[self.current_hour] <= 80)&(self.bike_stock[self.current_hour] >= 20):
             self.reward = 30-abs(self.bike_stock[self.current_hour]-50)
